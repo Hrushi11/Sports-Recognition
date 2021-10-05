@@ -28,4 +28,5 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install streamlit
-      - run: mkdocs gh-deploy --force
+      - run: pip install pillow
+      - run: pip install tensorflow
