@@ -1,5 +1,3 @@
-img = tf.io.read_file();
-
 async function run() {
   const MODEL_URL =
     "https://raw.githubusercontent.com/Hrushi11/Sports-Recognition/main/JS-Model/model.json";
