@@ -30,3 +30,4 @@ jobs:
       - run: pip install streamlit
       - run: pip install pillow
       - run: pip install tensorflow
+      - run: streamlit run app.py
