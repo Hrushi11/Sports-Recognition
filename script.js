@@ -1,6 +1,6 @@
 async function run() {
   const MODEL_URL =
-    "https://storage.googleapis.com/tfjs-models/tfjs/iris_v1/model.json";
+    "https://raw.githubusercontent.com/Hrushi11/Sports-Recognition/main/JS-Model/model.json";
   const model = await tf.loadLayersModel(MODEL_URL);
   console.log(model.summary());
   //   const input = tf.tensor2d([10.0], [1, 1]);
